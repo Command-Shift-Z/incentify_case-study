@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+nav {
+    padding: 50px 25px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-item {
+    font-size: 16px;
+    padding-right: 24px;
+}
+
+.jumbotron {
+    height: 45vh;
+    margin: auto 0;
+
+    background: #ffe774;
+    background: -moz-radial-gradient(center, ellipse cover,  #ffe774 0%, #fff1ad 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffe774), color-stop(100%,#fff1ad));
+    background: -webkit-radial-gradient(center, ellipse cover,  #ffe774 0%,#fff1ad 100%);
+    background: -o-radial-gradient(center, ellipse cover,  #ffe774 0%,#fff1ad 100%);
+    background: -ms-radial-gradient(center, ellipse cover,  #ffe774 0%,#fff1ad 100%);
+    background: radial-gradient(ellipse at center,  #ffe774 0%,#fff1ad 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe774', endColorstr='#fff1ad',GradientType=1 );
+}
+
+#intro {
+    padding: 24px 12px; 
+}
+
+
+#intro .list-group {
+    margin-left: 24px;
+}
+.roof {
+    height: 4px;
+    width: 100px;
+}
+
+
+#userInterviews {
+    background-color: #eaeaea;
+    padding: 24px 125px;
+}
+
+
+.survey img{
+    width: 1000px;
+    padding: 24px 0; 
+}
+
+#userResearch {
+    padding: 24px 0;
+}
+
+.card {
+    margin: 24px 12px; 
+    background-color: #EFD2DC;
+    padding: 24px 0;
+}

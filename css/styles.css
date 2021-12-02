@@ -43,9 +43,12 @@ nav {
 #intro .list-group {
     margin-left: 24px;
 }
-.roof {
-    height: 4px;
-    width: 100px;
+
+.borderTop {
+    border-top: 5px solid #9a4968;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
 }
 
 

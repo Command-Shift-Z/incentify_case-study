@@ -9,7 +9,9 @@ body {
 }
 
 nav {
-    padding: 50px 25px;
+    padding: 50px 25px; 
+    background-color: #612954;
+    
 }
 
 .navbar-nav {
@@ -35,13 +37,31 @@ nav {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe774', endColorstr='#fff1ad',GradientType=1 );
 }
 
+h2 {
+    font-weight: 700;
+}
+
+h4 {
+    font-weight: 700;
+    color: #612954;
+}
+
+h5 {
+    font-weight: 700;
+    color: #612954;
+}
+
 #intro {
     padding: 24px 12px; 
 }
 
-
 #intro .list-group {
     margin-left: 24px;
+}
+
+
+.incentifyApp {
+    width: 65%;
 }
 
 .borderTop {
@@ -51,12 +71,10 @@ nav {
     border-right: none;
 }
 
-
 #userInterviews {
-    background-color: #eaeaea;
+    background-color: #F2FCFF;
     padding: 24px 125px;
 }
-
 
 .survey img{
     width: 1000px;
@@ -64,11 +82,16 @@ nav {
 }
 
 #userResearch {
-    padding: 24px 0;
+    padding: 48px 0;
+    
 }
 
+#trackingTasks {
+    margin: 24px 0;
+}
 .card {
     margin: 24px 12px; 
     background-color: #EFD2DC;
-    padding: 24px 0;
+    padding: 24px 12px;
+    border-style: none;
 }
